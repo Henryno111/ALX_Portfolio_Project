@@ -17,6 +17,7 @@ const AdvertWidget = () => {
         <Typography color={medium}>Create Ad</Typography>
       </FlexBetween>
       <img
+        crossorigin='anonymous'
         width="100%"
         height="auto"
         alt="advert"

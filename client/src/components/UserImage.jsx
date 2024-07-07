@@ -4,6 +4,7 @@ const UserImage = ({ image, size = "60px" }) => {
   return (
     <Box width={size} height={size}>
       <img
+        crossorigin='anonymous' 
         style={{ objectFit: "cover", borderRadius: "50%" }}
         width={size}
         height={size}
