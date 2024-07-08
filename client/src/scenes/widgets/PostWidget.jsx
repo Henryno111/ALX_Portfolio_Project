@@ -60,6 +60,7 @@ const PostWidget = ({
       </Typography>
       {picturePath && (
         <img
+          crossOrigin="anonymous"
           width="100%"
           height="auto"
           alt="post"
