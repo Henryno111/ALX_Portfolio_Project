@@ -1,4 +1,4 @@
-import User from '../models/User.js'
+import User from "../models/User.js";
 
 /* READ */
 export const getUser = async (req, res) => {
@@ -25,7 +25,7 @@ export const getUserFriends = async (req, res) => {
       }
     );
     res.status(200).json(formattedFriends);
-} catch (err) {
+  } catch (err) {
     res.status(404).json({ message: err.message });
   }
 };
@@ -39,8 +39,8 @@ export const addRemoveFriend = async (req, res) => {
 
     if (user.friends.includes(friendId)) {
       user.friends = user.friends.filter((id) => id !== friendId);
-      friend.friends = friend.friends.filter((id) => id !== id);  
-} else {
+      friend.friends = friend.friends.filter((id) => id !== id);
+    } else {
       user.friends.push(friendId);
       friend.friends.push(id);
     }
@@ -57,8 +57,7 @@ export const addRemoveFriend = async (req, res) => {
     );
 
     res.status(200).json(formattedFriends);
-
-} catch (err) {
+  } catch (err) {
     res.status(404).json({ message: err.message });
   }
 };
