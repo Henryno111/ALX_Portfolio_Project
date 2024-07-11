@@ -21,16 +21,17 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="http://localhost:3001/assets/info4.jpeg"
+        src="http://localhost:3001/assets/AD_image.jpg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
-        <Typography color={main}>MikaCosmetics</Typography>
-        <Typography color={medium}>mikacosmetics.com</Typography>
+        <Typography color={main}>Alx_Africa</Typography>
+        <Typography color={medium}><a href="https://www.alxafrica.com/nigeria/">alx_africa.com</a></Typography>
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
-        Your pathway to stunning and immaculate beauty and made sure your skin
-        is exfoliating skin and shining like light.
+        Your pathway to building a career in tech is ALX_Africa.
+        
+        ALX_Africa is a leading organization dedicated to building a career pathway in tech for African youth. Through immersive training programs, mentorship, and access to a global network, ALX_Africa equips individuals with the skills and opportunities needed to thrive in the tech industry.
       </Typography>
     </WidgetWrapper>
   );
