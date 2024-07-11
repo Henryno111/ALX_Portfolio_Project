@@ -28,9 +28,7 @@ const AdvertWidget = () => {
         <Typography color={main}>Alx_Africa</Typography>
         <Typography color={medium}><a href="https://www.alxafrica.com/nigeria/">alx_africa.com</a></Typography>
       </FlexBetween>
-      <Typography color={medium} m="0.5rem 0">
-        Your pathway to building a career in tech is ALX_Africa.
-        
+      <Typography color={medium} m="0.5rem 0">   
         ALX_Africa is a leading organization dedicated to building a career pathway in tech for African youth. Through immersive training programs, mentorship, and access to a global network, ALX_Africa equips individuals with the skills and opportunities needed to thrive in the tech industry.
       </Typography>
     </WidgetWrapper>
